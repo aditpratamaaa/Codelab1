@@ -27,6 +27,9 @@ export default function AppTabs() {
           <TabTrigger name="explore" href="/explore" asChild>
             <TabButton>Explore</TabButton>
           </TabTrigger>
+          <TabTrigger name="usecontext_example" href="/usecontext_example" asChild>
+            <TabButton>Codelab 1</TabButton>
+          </TabTrigger>
         </CustomTabList>
       </TabList>
     </Tabs>

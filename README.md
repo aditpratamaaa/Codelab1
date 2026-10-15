@@ -25,6 +25,12 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
+## Codelab 1: React Context and Dark Mode
+
+Open the **Codelab 1** tab to try the Context-based Light Mode and Dark Mode example. The
+`ThemeProvider` stores the selected theme, and components use `useThemeContext` to read the shared
+colors and toggle function.
+
 ## Get a fresh project
 
 When you're ready, run:
